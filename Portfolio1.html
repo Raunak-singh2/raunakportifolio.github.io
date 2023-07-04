@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> raunak singh Portfolio...</title>
+    <link rel="icon" href="pofImg.jpeg">
+    <link rel="stylesheet" href="Portfolio1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="Portfolio1.js" defer></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <nav>
+          <h2 class="heading1"><span style="font-size: 2.5rem;">R</span>aunak.</h2>
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#home">About</a></li>
+            <li><a href="#about">My Skills</a></li>
+            <li><a href="#services">Project</a></li>
+            <li><a href="#cotact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"style="cursor: pointer;"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()" style="cursor: pointer;"></i>
+        </nav>
+        <section class="home" id="home">
+          <h3 style="font-size: 20px;">Hii, It's Me</h3>
+          <h1 style="font-size: 1.8rem;"><span>R</span>aunak singh</h1>
+          <p class="rishi" id="rishi"></p>
+          <a href="#" download="raunakresume.jpg" class="cvbtn" id="cvbtn">Download CV <i class="fa fas-download"></i></a>
+        </section>
+      </div>
+    </header>
+    <!-- ==========================About section.============================== -->
+      <div class="about" id="about">
+      <div class="container">
+        <div class="col">
+          <div class="about-col-1">
+            <img src="aboutImg.jpg" alt="image" />
+          </div>
+          <div class="about-col-2">
+            <h2 class="sub-title">About Me</h2>
+            <p>
+             Hii' My Name is Raunak singh and i'm from bihar. i'm complect my "BCA" from chennai
+              ."Bharath university" So i'm a Forntend Developer. i have know "HTML", "CSS" ,"JAVASCRIPT", "REACT JS","BOOTSTRAP" and have deep understandig of API and rest API.
+            </p>
+            <div class="tab-title">
+              <p class="tab-links active-link" id="tab-links">Skills</p>
+              <p class="tab-links" id="tab-linksTwo">Education</p>
+            </div> 
+            <div class="tab-content">
+              <ul>
+                <li id="skills">
+                  <span style="text-decoration: underline;" class="skills-btn">Forntend Developer.</span><br/><br/>
+                  Hii' My Name is raunak singh and i'm from bihar. so i have deep understandig of web Developemnt.so i'm looking for opportunity to use my skills<a href="https://github.com/Raunak-singh2">i'm react js developer please cheakout my GitHub.</a>
+                </li>
+                <li id="education-hiden">
+                  <span> I'm a BCA student.</span><br />
+                  Hii' My Name is raunak singh and i'm from bihar. i'm complect my 10+2 from patana "T.P.S Collage patna" and i'm  doing Graduation from chennai  
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <!-- ===========================Services========================= -->
+
+<div class="services" id="services">
+      <div class="container">
+        <h1 class="heading2">My skills</h1>
+        <div class="srcvices-list">
+          <div class="sub-dib" data-aos="zoom-in-up">
+            <i
+              class="fa-brands fa-html5"
+              style="font-size: 50px; color: #dd4b25"
+            ></i>
+            <h2>HTML</h2>
+            <p>
+            I have good knowledge of HTML such as 85%.
+            </p>
+            <a href="https://github.com/Raunak-singh2">Learn more</a>
+          </div>
+          <div class="sub-dib">
+            <i
+              class="fa-brands fa-css3-alt"
+              style="font-size: 50px; color: #149eca"
+            ></i>
+            <h2>CSS 3</h2>
+            <p>
+              I have good knowledge of CSS such as 99%.
+            </p>
+            <a href="https://github.com/Raunak-singh2">Learn more</a>
+          </div>
+          <div class="sub-dib">
+            <i
+              class="fa-brands fa-square-js"
+              style="font-size: 50px; color: yellow"
+            ></i>
+            <h2>JAVASCRIPT</h2>
+            <p>
+              I have good knowledge of CSS such as 80%.
+            </p>
+            <a href="https://github.com/Raunak-singh2">Learn more</a>
+          </div>
+          <div class="sub-dib">
+            <i
+              class="fa-brands fa-react"
+              style="font-size: 50px; color: #149eca"
+            ></i>
+            <h2>REACT JS</h2>
+            <p>
+              I have good knowledge of REACT JS such as 90%.
+
+            </p>
+            <a href="https://github.com/Raunak-singh2">Learn more</a>
+          </div>
+           <div class="sub-dib">
+            <i
+              class="fa-brands fa-bootstrap"
+              style="font-size: 50px;color: #6c10f4"
+            ></i>
+            <h2>BOOTSTRAP</h2>
+            <p>
+              I have good knowledge of BOOTSTRAP such as 70%
+
+            </p>
+            <a href="https://github.com/Raunak-singh2">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div> 
+ <!-- ======================protifileo================ -->
+    <div class="portfolio" id="portfolio">
+      <div class="container">
+        <h1 class="sub__title">My Project</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="project1.jpg" alt="" />
+            <div class="layer">
+              <h3>I have created ChatGtp clone</h3>
+              <p>
+                Hi I have created GTP clone if you wanted to see my project then please checkOut my GitHub link.
+              </p>
+              <a href="https://github.com/Raunak-singh2"><i class="fa-solid fa-code"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="project2.jpg" alt="" />
+            <div class="layer">
+              <h3>I have created WeatherApp</h3>
+              <p>
+                Hi I have WeatherApp clone if you wanted to see my project then please checkOut my GitHub link.
+
+              </p>
+              <a href="https://github.com/Raunak-singh2"><i class="fa-solid fa-code"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="project3.jpg" alt="" />
+            <div class="layer">
+              <h3>Spotify clone</h3>
+              <p>
+                Hi I have Spotify clone clone if you wanted to see my project then please checkOut my GitHub link.
+
+              </p>
+              <a href="https://github.com/Raunak-singh2"><i class="fa-solid fa-code"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="project4.jpg" alt="" />
+            <div class="layer">
+              <h3>Netflix clone</h3>
+              <p>
+                Hi I have created Netflix clone clone if you wanted to see my project then please checkOut my GitHub link.
+              </p> 
+               <a href="https://github.com/Raunak-singh2"><i class="fa-solid fa-code"></i></a>
+            </div>
+          </div>
+          <a href="https://github.com/Raunak-singh2" class="btn">See more</a>
+        </div>
+      </div> 
+      <!-- ==================contact form================= -->
+      <div class="cotact" id="cotact">
+        <div class="container">
+          <div class="row">
+            <div class="left-contact">
+              <h1 class="sub-title">Contact me</h1>
+              <p class="para1"><i class="fa-sharp fa-light fa-paper-plane-top"></i>raunaksingh847203@gmail.com</p>
+              <p class="para1"><i class="fa-sharp fa-solid fa-phone-volume"></i>9661134082</p>
+              <div class="soscial_icon">
+              <a href="https://www.linkedin.com/in/raunak-singh-90282a258/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Raunak-singh2"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                 <a href="#"><i class="fa-brands fa-instagram"></i></a>  
+             </div> 
+          </div>
+           <div class="right-contact">
+            <form method="POST" name="google-sheet">
+              <input type="text" placeholder="Your name" name="Name" id="inp" required />
+              <input
+                type="email"
+                name="Email"
+                id="emails"
+                placeholder="Enter your Gmail"
+              />
+              <textarea
+                name="Messages"
+                id="textarr"
+                rows="6" placeholder="Please enter your valuable feedback."></textarea>
+               <button type="submit" class="btn2" name="Submit">Submit</button>
+            </form>
+            <span id="msge"></span>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div>
+      <p class="footer">cope right <i class="fa-solid fa-heart"></i> by raunak singh</p>
+    </div>
+  </body>
+  </html>
+  
